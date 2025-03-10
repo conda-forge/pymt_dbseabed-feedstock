@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/gantian127/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: d0f6fae6c423c2b2a59d6c390042fc7e238888a4e305b1d7f2ebfa262c2b352b
+  sha256: fcb9a437a62c1504f9f5cc9179d3a6211ed9ba06e0e73e8ce2b8b2a3aec373f8
 
 build:
   noarch: python
