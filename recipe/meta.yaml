@@ -1,6 +1,6 @@
 {% set python_min = '3.10' %}
 {% set name = "pymt_dbseabed" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,11 +8,11 @@ package:
 
 source:
   url: https://github.com/gantian127/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 80717dbcba0075bdfa9f70ea397deb9d142dfb634485683878644135dfe135f5
+  sha256: d0f6fae6c423c2b2a59d6c390042fc7e238888a4e305b1d7f2ebfa262c2b352b
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
